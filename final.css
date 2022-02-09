@@ -34,7 +34,7 @@
   background-color: rgb(0, 69, 124,0.75) !important;
 }
 
-.embeddedServiceSidebarForm.formContent{
+.embeddedServiceSidebar.layout-docked .dockableContainer.showDockableContainer, .embeddedServiceSidebar.layout-float .dockableContainer.showDockableContainer{
   border:6px solid rgb(0, 69, 124,0.75) !important;
 }
 
