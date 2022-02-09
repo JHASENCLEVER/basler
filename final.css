@@ -15,10 +15,14 @@
       min-height: 60px !important; 
      }
     .embeddedServiceHelpButton .helpButton .uiButton {
-        background-color: #d3a005 !important;
+        background-color: rgb(0, 69, 124,0.75) !important;
        
         font-family: "Arial", sans-serif;
     }
     .embeddedServiceHelpButton .helpButton .uiButton:focus {
         outline: 1px solid #005290;
     }
+
+.embeddedServiceLiveAgentStatePrechatDefaultUI{
+ border:2px solid rgb(0, 69, 124,0.75) !important;
+}
