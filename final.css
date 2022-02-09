@@ -38,3 +38,7 @@
 .embeddedservice-chatheader_chatheader-host{
   background-color: rgb(0, 69, 124,0.75) !important;
 }
+
+dialogButton.dialog-button-1.uiButton--inverse.uiButton.embeddedServiceSidebarButton{
+background-color: white !important;
+}
