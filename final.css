@@ -31,10 +31,11 @@
     .embeddedServiceHelpButton .helpButton .uiButton {
         /*background-color: rgb(0, 69, 124,0.75) !important;*/
         background-color: transparent !important;
+	box-shadow:none !important;
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
         min-width: 22em !important;
 		margin: 0 15px 15px 0;
-        box-shadow:none;
+        
        
         
 
