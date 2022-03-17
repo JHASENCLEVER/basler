@@ -1,6 +1,6 @@
 @media screen and (max-width: 670px) {
  
- .message{
+    .message{
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
         background-color: rgb(64 116 157) !important;
         color: white;
@@ -53,7 +53,7 @@
 
     .embeddedServiceHelpButton .embeddedServiceIcon::before {
 		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1645702374000/buttonChat?)!important;
-		margin: 5px 15px 0px -12px;
+		margin: 5px 15px 0px 30px;
     }
 
     /*
@@ -136,9 +136,14 @@
 
 
     .embeddedServiceSidebarMinimizedDefaultUI {
-        margin: 1px 40px 25px 1px;
+        /*margin: 1px 40px 25px 1px;*/
+        width: 250px;
+        bottom: 35px;
+        right: 55px;
+        
     }
 
     .embeddedServiceSidebarButton {
         background: #40749d;
     }
+}
