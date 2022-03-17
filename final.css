@@ -1,5 +1,3 @@
-@media screen and (max-width: 670px) {
- 
     .message{
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
         background-color: rgb(64 116 157) !important;
@@ -146,4 +144,3 @@
     .embeddedServiceSidebarButton {
         background: #40749d;
     }
-}
