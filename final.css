@@ -1,4 +1,12 @@
-    .message{
+@keyframes blinksBriefly {
+  0%   {width: 260px; height: 70px;}
+  25%  {width: 240px; height: 65px;}
+  50%  {width: 260px; height: 70px;}
+  75%  {width: 240px; height: 65px;}
+  100% {width: 240px; height: 65px;}
+}    
+
+.message{
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
         background-color: rgb(64 116 157) !important;
         color: white;
@@ -53,6 +61,8 @@
     .embeddedServiceHelpButton .embeddedServiceIcon::before {
 		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1645702374000/buttonChat?)!important;
 		margin: 5px 15px 0px 30px;
+	        animation-name: blinksBriefly;
+                animation-duration: 4s;
     }
 
     /*
