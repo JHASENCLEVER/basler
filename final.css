@@ -1,9 +1,9 @@
  @keyframes blinksBriefly {
-	  0%   {width: 260px; height: 70px;}
-	  25%  {width: 240px; height: 65px;}
-	  50%  {width: 260px; height: 70px;}
-	  75%  {width: 240px; height: 65px;}
-	  100% {width: 260px; height: 70px;}
+	  0%   {zoom:105%}
+	  25%  {zoom:100%}
+	  50%  {zoom:105%}
+	  75%  {zoom:100%}
+	  100% {zoom:105%}
     }
 
 .message{
