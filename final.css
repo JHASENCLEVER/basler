@@ -1,9 +1,9 @@
  @keyframes blinksBriefly {
-	  0%   {zoom:105%}
+	  0%   {zoom:110%}
 	  25%  {zoom:100%}
-	  50%  {zoom:105%}
+	  50%  {zoom:110%}
 	  75%  {zoom:100%}
-	  100% {zoom:105%}
+	  100% {zoom:110%}
     }
 
 .message{
@@ -62,7 +62,7 @@
 		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1645702374000/buttonChat?)!important;
 		margin: 5px 15px 0px 30px;
 	        animation-name: blinksBriefly;
-                animation-duration: 3s;
+                animation-duration: 2s;
     }
 
     /*
