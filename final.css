@@ -8,6 +8,7 @@
 
 .embeddedServiceHelpButton .helpButton .helpButtonEnabled:hover::before, .embeddedServiceHelpButton .helpButton .helpButtonEnabled:focus::before{
 	background-color: transparent;
+	box-shadow: none;
 }
 
 .message{
