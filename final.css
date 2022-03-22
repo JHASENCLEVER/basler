@@ -6,6 +6,10 @@
 	  100% {zoom:108%}
     }
 
+.embeddedServiceHelpButton .helpButton .helpButtonEnabled:hover::before, .embeddedServiceHelpButton .helpButton .helpButtonEnabled:focus::before{
+	background-color: transparent;
+}
+
 .message{
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
         background-color: rgb(64 116 157) !important;
