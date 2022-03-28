@@ -167,5 +167,9 @@
 	        animation-name: blinksBriefly;
                 animation-duration: 2.5s;
     }
+	    
+    .message{
+	display:none;
+    }
     
 }
