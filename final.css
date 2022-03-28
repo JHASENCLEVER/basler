@@ -163,11 +163,9 @@
     @media screen and (max-width: 670px) {
 	.embeddedServiceHelpButton .embeddedServiceIcon::before {
          content:url(https://baslerweb--webchat--c.visualforce.com/resource/1648452700000/mobileButtonChat?)!important;	
-         margin: 5px 15px 0px 30px;
+         margin: 5px 15px 0px 200px;
 	        animation-name: blinksBriefly;
                 animation-duration: 2.5s;
     }
-    .message{
-	 display: none;   
-    }
+    
 }
