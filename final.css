@@ -47,8 +47,6 @@
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
         min-width: 22em !important;
 		margin: 0 15px 15px 0;
-	content:url(https://baslerweb--webchat--c.visualforce.com/resource/1645702374000/buttonChat?)!important;
-
     }
     .embeddedServiceHelpButton .helpButton {
                 margin: 0 15px 25px 0;
