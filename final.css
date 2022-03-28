@@ -6,6 +6,11 @@
 	  100% {zoom:108%}
     }
 
+@media screen and (max-width: 670px) {
+	.embeddedServiceHelpButton .embeddedServiceIcon::before {
+         content:url(https://baslerweb--webchat--c.visualforce.com/resource/1648452700000/mobileButtonChat?)!important;	
+}
+
 .embeddedServiceHelpButton .helpButton .helpButtonEnabled:hover::before, .embeddedServiceHelpButton .helpButton .helpButtonEnabled:focus::before{
 	display: none;
 }
