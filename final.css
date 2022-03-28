@@ -171,5 +171,9 @@
     .message{
 	display:none;
     }
+	    
+    .embeddedServiceSidebar.modalContainer{
+        margin-bottom: 35px
+     }
     
 }
