@@ -150,9 +150,9 @@
 
     .embeddedServiceSidebarMinimizedDefaultUI {
         /*margin: 1px 40px 25px 1px;*/
-        width: 250px;
-        bottom: 35px;
-        right: 55px;
+        width: 250px !important;
+        bottom: 35px !important;
+        right: 55px !important;
         
     }
 
