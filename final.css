@@ -6,11 +6,6 @@
 	  100% {zoom:108%}
     }
 
-@media screen and (max-width: 670px) {
-	.embeddedServiceHelpButton .embeddedServiceIcon::before {
-         content:url(https://baslerweb--webchat--c.visualforce.com/resource/1648452700000/mobileButtonChat?)!important;	
-}
-
 .embeddedServiceHelpButton .helpButton .helpButtonEnabled:hover::before, .embeddedServiceHelpButton .helpButton .helpButtonEnabled:focus::before{
 	display: none;
 }
@@ -163,4 +158,12 @@
 
     .embeddedServiceSidebarButton {
         background: #40749d;
+    }
+
+    @media screen and (max-width: 670px) {
+	.embeddedServiceHelpButton .embeddedServiceIcon::before {
+         content:url(https://baslerweb--webchat--c.visualforce.com/resource/1648452700000/mobileButtonChat?)!important;	
+         margin: 5px 15px 0px 30px;
+	        animation-name: blinksBriefly;
+                animation-duration: 2.5s;
     }
