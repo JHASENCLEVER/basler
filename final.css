@@ -65,49 +65,6 @@
                 animation-duration: 2.5s;
     }
 
-    /*
-    .embeddedServiceSidebarMinimizedDefaultUI.newMessage .helpButton .uiButton {
-        background-color: rgb(0, 69, 124,0.75) !important;
-        font-family: "chatfont";
-        min-width: 22em !important;
-		margin: 0 0px 15px 0;
-
-    }
-
-    .embeddedServiceSidebarMinimizedDefaultUI.newMessage .helpButton {
-        margin: 0 15px 25px 0;
-    }
-
-    .embeddedServiceSidebarMinimizedDefaultUI.newMessage .embeddedServiceIcon::before {
-		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1645702374000/buttonChat?)!important;
-        margin: -14px 1px 1px 15px
-    }
-
-    .embeddedServiceSidebarMinimizedDefaultUI.newMessage .helpButton .uiButton:focus {
-        outline: 1px solid #005290;
-
-    }
-
-    .embeddedServiceSidebarMinimizedDefaultUI.newMessage .minimizedText {
-                display: none;
-    }
-
-    .embeddedServiceSidebarMinimizedDefaultUI.newMessage .messageContent {
-    position: fixed;
-    }
-
-    .embeddedServiceSidebarMinimizedDefaultUI.newMessage .content {
-    display: inline-flex;
-    }
-
-
-
-    .embeddedServiceSidebarMinimizedDefaultUI.newMessage {
-        display: none;
-    }
-
-    */
-
     .embeddedServiceSidebarMinimizedDefaultUI .helpButton .uiButton {
         background-color: rgb(0, 69, 124,0.75) !important;
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
@@ -120,11 +77,6 @@
         margin: 0 15px 25px 0;
     }
 
-    .embeddedServiceSidebarMinimizedDefaultUI .embeddedServiceIcon::before {
-		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1645702374000/buttonChat?)!important;
-        margin: -14px 1px 1px 15px;
-        display:none;
-    }
     .embeddedServiceSidebarMinimizedDefaultUI .helpButton .uiButton:focus {
         outline: 1px solid #005290;
 
