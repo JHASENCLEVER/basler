@@ -5,6 +5,11 @@
 	  75%  {zoom:100%}
 	  100% {zoom:108%}
     }
+
+.embeddedServiceSidebarButton.uiButton--inverse .label {
+    color: white;
+}
+
 .embeddedServiceSidebarButton{
         background: rgb(64 116 157) !important;
 }
