@@ -5,7 +5,9 @@
 	  75%  {zoom:100%}
 	  100% {zoom:108%}
     }
-
+.embeddedServiceSidebarButton{
+        background: rgb(64 116 157);
+}
 .embeddedServiceHelpButton .helpButton .helpButtonEnabled:hover::before, .embeddedServiceHelpButton .helpButton .helpButtonEnabled:focus::before{
 	display: none;
 }
