@@ -7,7 +7,7 @@
     }
 
 .embeddedServiceSidebarButton.uiButton--inverse .label {
-    color: white;
+    color: white !important;
 }
 
 .embeddedServiceSidebarButton{
