@@ -6,7 +6,7 @@
 	  100% {zoom:108%}
     }
 .embeddedServiceSidebarButton{
-        background: rgb(64 116 157);
+        background: rgb(64 116 157) !important;
 }
 .embeddedServiceHelpButton .helpButton .helpButtonEnabled:hover::before, .embeddedServiceHelpButton .helpButton .helpButtonEnabled:focus::before{
 	display: none;
@@ -63,8 +63,8 @@
     .embeddedServiceHelpButton .embeddedServiceIcon::before {
 		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1648738685000/buttonChat?)!important;
 		margin: 5px 15px 0px 30px;
-	        animation-name: blinksBriefly;
-                animation-duration: 2.5s;
+	        /*animation-name: blinksBriefly;
+                animation-duration: 2.5s;*/
     }
 
     .embeddedServiceSidebarMinimizedDefaultUI .helpButton .uiButton {
@@ -110,8 +110,8 @@
 	.embeddedServiceHelpButton .embeddedServiceIcon::before {
          content:url(https://baslerweb--webchat--c.visualforce.com/resource/1648739921000/mobileButtonChat?)!important;	
          margin: 5px 15px 0px 200px;
-	        animation-name: blinksBriefly;
-                animation-duration: 2.5s;
+	        /*animation-name: blinksBriefly;
+                animation-duration: 2.5s;*/
     }
 	    
     .message{
