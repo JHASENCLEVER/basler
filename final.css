@@ -106,10 +106,6 @@
         
     }
 
-    .embeddedServiceSidebarButton {
-        background: #40749d;
-    }
-
     @media screen and (max-width: 670px) {
 	.embeddedServiceHelpButton .embeddedServiceIcon::before {
          content:url(https://baslerweb--webchat--c.visualforce.com/resource/1648739921000/mobileButtonChat?)!important;	
