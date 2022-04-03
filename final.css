@@ -69,6 +69,7 @@
     .embeddedServiceHelpButton .embeddedServiceIcon::before {
 		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1649016349000/buttonChat?)!important;
 		margin: 5px 15px 0px 30px;
+	        zoom: 35%;
 	        /*animation-name: blinksBriefly;
                 animation-duration: 2.5s;*/
     }
@@ -114,8 +115,9 @@
 
     @media screen and (max-width: 670px) {
 	.embeddedServiceHelpButton .embeddedServiceIcon::before {
-         content:url(https://baslerweb--webchat--c.visualforce.com/resource/1648739921000/mobileButtonChat?)!important;	
+         content:url(https://baslerweb--webchat--c.visualforce.com/resource/1649016850000/mobileButtonChat?)!important;	
          margin: 5px 15px 0px 200px;
+         zoom: 60%;
 	        /*animation-name: blinksBriefly;
                 animation-duration: 2.5s;*/
     }
