@@ -78,7 +78,7 @@
         background-color: rgb(0, 69, 124,0.75) !important;
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
         min-width: 22em !important;
-		margin: 0 0px 15px 0;
+        margin: 0 0px 15px 0;
 
     }
 
@@ -92,25 +92,21 @@
     }
 
     .embeddedServiceSidebarMinimizedDefaultUI .minimizedText {
-                display: none;
+        display: none;
     }
 
     .embeddedServiceSidebarMinimizedDefaultUI .messageContent {
-    position: fixed;
+        position: fixed;
     }
 
     .embeddedServiceSidebarMinimizedDefaultUI .content {
-    display: inline-flex;
+        display: inline-flex;
     }
 
-
-
     .embeddedServiceSidebarMinimizedDefaultUI {
-        /*margin: 1px 40px 25px 1px;*/
         width: 250px !important;
         bottom: 35px !important;
-        right: 55px !important;
-        
+        right: 55px !important; 
     }
 
     @media screen and (max-width: 670px) {
@@ -118,8 +114,6 @@
          content:url(https://baslerweb--webchat--c.visualforce.com/resource/1649016850000/mobileButtonChat?)!important;	
          margin: 5px 15px 0px 200px;
          zoom: 60%;
-	        /*animation-name: blinksBriefly;
-                animation-duration: 2.5s;*/
     }
 	    
     .message{
@@ -129,5 +123,4 @@
     .embeddedServiceSidebarMinimizedDefaultUI{
         margin-bottom: 35px !important;
      }
-    
-}
+   
