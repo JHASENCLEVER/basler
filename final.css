@@ -110,7 +110,7 @@
     @media screen and (max-width: 670px) {
 	.embeddedServiceHelpButton .embeddedServiceIcon::before {
          content:url(https://baslerweb--webchat--c.visualforce.com/resource/1649016850000/mobileButtonChat?)!important;	
-         margin: 5px 15px 0px 200px;
+         margin: 5px 15px 0px 350px;
          zoom: 60%;
     }
 	    
@@ -120,5 +120,8 @@
 	    
     .embeddedServiceSidebarMinimizedDefaultUI{
         margin-bottom: 35px !important;
+	bottom: -8px !important;
+        right: 0px !important;
+        height: 70px !important;
      }
    }
