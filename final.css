@@ -49,16 +49,15 @@
 
 
     .embeddedServiceHelpButton .helpButton .uiButton {
-        /*background-color: rgb(0, 69, 124,0.75) !important;*/
         background-color: transparent !important;
 	box-shadow:none !important;
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
         min-width: 22em !important;
-		margin: 0 15px 15px 0;
+        margin: 0 15px 15px 0;
     }
     .embeddedServiceHelpButton .helpButton {
-                margin: 0 15px 25px 0;
-            }
+        margin: 0 15px 25px 0;
+    }
 
     .embeddedServiceHelpButton .helpButton .uiButton:focus {
         outline: 1px solid #005290;
@@ -67,11 +66,9 @@
 	
 
     .embeddedServiceHelpButton .embeddedServiceIcon::before {
-		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1649016349000/buttonChat?)!important;
-		margin: 5px 15px 0px 30px;
-	        zoom: 35%;
-	        /*animation-name: blinksBriefly;
-                animation-duration: 2.5s;*/
+	content:url(https://baslerweb--webchat--c.visualforce.com/resource/1649016349000/buttonChat?)!important;
+	margin: 5px 15px 0px 100px;
+	zoom: 35%;
     }
 
     .embeddedServiceSidebarMinimizedDefaultUI .helpButton .uiButton {
@@ -122,5 +119,6 @@
 	    
     .embeddedServiceSidebarMinimizedDefaultUI{
         margin-bottom: 35px !important;
+	height: 55px;
      }
    
