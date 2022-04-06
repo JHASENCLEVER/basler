@@ -68,10 +68,8 @@
 
     .embeddedServiceHelpButton .embeddedServiceIcon::before {
 		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1649016349000/buttonChat?)!important;
-		margin: 5px 15px 0px 30px;
+		margin: 5px 15px 0px 100px;
 	        zoom: 35%;
-	        /*animation-name: blinksBriefly;
-                animation-duration: 2.5s;*/
     }
 
     .embeddedServiceSidebarMinimizedDefaultUI .helpButton .uiButton {
@@ -106,7 +104,8 @@
     .embeddedServiceSidebarMinimizedDefaultUI {
         width: 250px !important;
         bottom: 35px !important;
-        right: 55px !important; 
+        right: 55px !important;
+        height: 55px !important;
     }
 
     @media screen and (max-width: 670px) {
