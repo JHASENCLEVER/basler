@@ -49,7 +49,6 @@
 
 
     .embeddedServiceHelpButton .helpButton .uiButton {
-        /*background-color: rgb(0, 69, 124,0.75) !important;*/
         background-color: transparent !important;
 	box-shadow:none !important;
         font-family: DINWebPro-Regular, Helvetica, Arial, Meiryo, sans-serif;
@@ -68,7 +67,7 @@
 
     .embeddedServiceHelpButton .embeddedServiceIcon::before {
 		content:url(https://baslerweb--webchat--c.visualforce.com/resource/1649016349000/buttonChat?)!important;
-		margin: 5px 15px 0px 100px;
+		margin: 5px 15px 0px 150px;
 	        zoom: 35%;
     }
 
@@ -103,9 +102,9 @@
 
     .embeddedServiceSidebarMinimizedDefaultUI {
         width: 250px !important;
-        bottom: 35px !important;
-        right: 55px !important;
-        height: 55px !important;
+        bottom: 25px !important;
+        right: 45px !important;
+        height: 50px !important;
     }
 
     @media screen and (max-width: 670px) {
